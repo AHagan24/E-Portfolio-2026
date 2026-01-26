@@ -273,11 +273,12 @@ LANDING PAGE
   font-size: 32px;
   border-radius: 50%;
   border: none;
-  background-color: #242424;
+  background-color: #2563eb;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 32px;
   right: 40px;
+  z-index: 1;
 }
 
 .scroll {
