@@ -244,7 +244,7 @@ LANDING PAGE
 .header__para {
   font-size: 20px;
   line-height: 2;
-  max-width: 450;
+  max-width: 450px;
 }
 
 .social__list {
@@ -303,12 +303,12 @@ LANDING PAGE
   width: 4px;
   height: 6px;
   border-radius: 2px;
+  opacity: 1;
   animation: scroll 1000ms infinite alternate-reverse;
 }
 
 @keyframes scroll {
   0% {
-    opacity: 0;
     transform: translateY(3px);
   }
   100% {
@@ -677,6 +677,44 @@ SHAPES
   .header__para {
     font-size: 20px;
   }
+  .header__content {
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center
+  }
+  
+  .header__para {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .social__list {
+    justify-content: center;
+  }
+
+  .project__description {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .project__description--title,
+  .project__description--sub-title,
+  .project__description--para {
+    text-align: center;
+  }
+  
+  .modal__half {
+    width: 100%;
+  }
+  
   .modal {
     top: 0;
     left: 0;
@@ -685,10 +723,6 @@ SHAPES
     width: 100%;
     flex-direction: column-reverse;
     border-radius: 0;
-  }
-
-  .modal__half {
-    width: 100%;
   }
 }
 
@@ -710,7 +744,7 @@ SHAPES
   .project__description--title {
     left: 0;
     padding: 0;
-    width: 100;
+    width: 100%;
     text-align: center;
   }
 
